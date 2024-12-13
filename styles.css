@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: "Bradley Hand ITC", sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('/images/violin.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+    margin-top: 1px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+
+.hero {
+    text-align: center;
+    color: rgb(250, 250, 250);
+    padding: 50px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.hero h1 {
+    font-family: "Bradley Hand ITC", cursive;
+    font-size: 2.5em;
+    margin: 5px;
+    padding: 5px;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-image: url('/images/saxophone.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .logo img {
+        height: 40px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 1em;
+    }
+
+    .ima
+}
